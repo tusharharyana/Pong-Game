@@ -40,7 +40,7 @@ class ScoreBoard(Turtle):
         self.update_scoreboard()
         
     def check_winner(self):
-        if self.l_score == 2 or self.r_score == 2:
+        if self.l_score == 5 or self.r_score == 5:
             return True
         
         return False
